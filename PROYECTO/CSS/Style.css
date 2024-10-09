@@ -1,3 +1,20 @@
+/* ----------------------------------------
+/* */
+
+/* ----------------------------------------
+/* PALETA DE COLORES */
+:root{
+  --Beige : #efdddd;
+  --cafe_claro: #9c8289;
+  --cafe_medio: #886663;
+  --cafe_oscuro:#5c4547;
+  --Rosa_bajito: #efaab2;
+  --Rosa_oscuro: #82555a;
+  --verde_bajito: #a8a8a8;
+  --verde_olivo: #727c78;
+}
+
+/*----------------------------------------
 /*ANIMACIONES DEL TITULO DEL INICIO*/
 .rotate-scale-down {
 	-webkit-animation: rotate-scale-down 0.65s linear both;
