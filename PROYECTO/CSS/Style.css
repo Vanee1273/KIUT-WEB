@@ -155,6 +155,52 @@ header{
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.seccion-contacto{
+  display: flex;
+  max-width: 160rem;
+  width: 100%;
+  justify-content:center;
+  align-items: center;
+  color: var(--Rosa_oscuro);
+}
+
+#Contacto{
+  font-size: 5rem;
+}
+
+.formulario-contacto legend{
+  text-align: center;
+  font-size: 4rem;
+  color: var(--Rosa_oscuro);
+  font-weight: bold;
+  width: 100%;
+}
+
+.campo{
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 3rem;
+  color: var(--Rosa_oscuro);
+}
+
+.boton{
+  color: var(--cafe_oscuro);
+  background-color: var(--Beige);
+  font-size: 3rem;
+}
+
+footer{
+  max-width: 160rem;
+  background-color: var(--Rosa_bajito);
+  color: var(--Beige);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 /*PAGINAS EXTERNAS*/
 .titulo-externas{
   text-align:center;
@@ -182,6 +228,10 @@ header{
   flex-wrap: wrap;
 }
 
+.contenido-externas{
+  background-color: var(--Beige);
+}
+
 .contenido-externas span{
   font-family: "Roboto Condensed", sans-serif;
   font-size: 6rem;
@@ -192,6 +242,7 @@ header{
   font-family: "Roboto Condensed", sans-serif;
   font-size: 2rem;
   color: var(--Rosa_oscuro);
+  margin: 0 10rem ;
 }
 
 .contenido-externas p{
@@ -199,6 +250,8 @@ header{
   font-size: 1rem;
   color: var(--Rosa_bajito);
 }
+
+
 
 /*----------------------------------------
 /*ANIMACIONES DEL TITULO DEL INICIO*/
